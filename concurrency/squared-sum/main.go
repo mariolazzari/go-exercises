@@ -1,12 +1,3 @@
-# Go exercises
-
-## Concurrency
-
-### Squared sum
-
-Compute total by running one goroutine for each number
-
-```go
 package main
 
 import (
@@ -59,6 +50,3 @@ func main() {
 func square(n int) int {
 	return n * n
 }
-```
-
-### Site watcher
